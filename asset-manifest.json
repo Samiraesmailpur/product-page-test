@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/product-page-test/static/css/main.20837286.css",
-    "main.js": "/product-page-test/static/js/main.992d1431.js",
+    "main.css": "/product-page-test/static/css/main.b760fae1.css",
+    "main.js": "/product-page-test/static/js/main.a3ba91b3.js",
     "static/media/watchBlue.webp": "/product-page-test/static/media/watchBlue.496c00adbff9e275bb7e.webp",
     "static/media/watch.webp": "/product-page-test/static/media/watch.ced319c74d219ca71018.webp",
     "static/media/watchBlue3.webp": "/product-page-test/static/media/watchBlue3.ef72345b21e4b75a1d17.webp",
@@ -10,11 +10,11 @@
     "static/media/watch2.webp": "/product-page-test/static/media/watch2.54537457c2ba793da384.webp",
     "static/media/cart.svg": "/product-page-test/static/media/cart.f565070e86765104279a4fb1d13a1a3a.svg",
     "index.html": "/product-page-test/index.html",
-    "main.20837286.css.map": "/product-page-test/static/css/main.20837286.css.map",
-    "main.992d1431.js.map": "/product-page-test/static/js/main.992d1431.js.map"
+    "main.b760fae1.css.map": "/product-page-test/static/css/main.b760fae1.css.map",
+    "main.a3ba91b3.js.map": "/product-page-test/static/js/main.a3ba91b3.js.map"
   },
   "entrypoints": [
-    "static/css/main.20837286.css",
-    "static/js/main.992d1431.js"
+    "static/css/main.b760fae1.css",
+    "static/js/main.a3ba91b3.js"
   ]
 }
