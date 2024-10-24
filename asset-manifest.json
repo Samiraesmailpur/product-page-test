@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Samiraesmailpur/product-page-test/static/css/main.54daed8f.css",
-    "main.js": "/Samiraesmailpur/product-page-test/static/js/main.577af4b9.js",
-    "static/media/watchBlue.webp": "/Samiraesmailpur/product-page-test/static/media/watchBlue.496c00adbff9e275bb7e.webp",
-    "static/media/watch.webp": "/Samiraesmailpur/product-page-test/static/media/watch.ced319c74d219ca71018.webp",
-    "static/media/watchBlue3.webp": "/Samiraesmailpur/product-page-test/static/media/watchBlue3.ef72345b21e4b75a1d17.webp",
-    "static/media/watch3.webp": "/Samiraesmailpur/product-page-test/static/media/watch3.9dea3d4b18ab8464e7ea.webp",
-    "static/media/watchBlue2.webp": "/Samiraesmailpur/product-page-test/static/media/watchBlue2.113ae65f7f7a21ffd164.webp",
-    "static/media/watch2.webp": "/Samiraesmailpur/product-page-test/static/media/watch2.54537457c2ba793da384.webp",
-    "static/media/cart.svg": "/Samiraesmailpur/product-page-test/static/media/cart.f565070e86765104279a4fb1d13a1a3a.svg",
-    "index.html": "/Samiraesmailpur/product-page-test/index.html",
-    "main.54daed8f.css.map": "/Samiraesmailpur/product-page-test/static/css/main.54daed8f.css.map",
-    "main.577af4b9.js.map": "/Samiraesmailpur/product-page-test/static/js/main.577af4b9.js.map"
+    "main.css": "/product-page-test/static/css/main.54daed8f.css",
+    "main.js": "/product-page-test/static/js/main.34f466c1.js",
+    "static/media/watchBlue.webp": "/product-page-test/static/media/watchBlue.496c00adbff9e275bb7e.webp",
+    "static/media/watch.webp": "/product-page-test/static/media/watch.ced319c74d219ca71018.webp",
+    "static/media/watchBlue3.webp": "/product-page-test/static/media/watchBlue3.ef72345b21e4b75a1d17.webp",
+    "static/media/watch3.webp": "/product-page-test/static/media/watch3.9dea3d4b18ab8464e7ea.webp",
+    "static/media/watchBlue2.webp": "/product-page-test/static/media/watchBlue2.113ae65f7f7a21ffd164.webp",
+    "static/media/watch2.webp": "/product-page-test/static/media/watch2.54537457c2ba793da384.webp",
+    "static/media/cart.svg": "/product-page-test/static/media/cart.f565070e86765104279a4fb1d13a1a3a.svg",
+    "index.html": "/product-page-test/index.html",
+    "main.54daed8f.css.map": "/product-page-test/static/css/main.54daed8f.css.map",
+    "main.34f466c1.js.map": "/product-page-test/static/js/main.34f466c1.js.map"
   },
   "entrypoints": [
     "static/css/main.54daed8f.css",
-    "static/js/main.577af4b9.js"
+    "static/js/main.34f466c1.js"
   ]
 }
