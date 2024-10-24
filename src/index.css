@@ -1,13 +1,145 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.radix-themes {
+  --cursor-button: pointer;
+  --cursor-checkbox: pointer;
+  --cursor-disabled: default;
+  --cursor-link: pointer;
+  --cursor-menu-item: pointer;
+  --cursor-radio: pointer;
+  --cursor-slider-thumb: grab;
+  --cursor-slider-thumb-active: grabbing;
+  --cursor-switch: pointer;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+button {
+  cursor: var(--cursor-button);
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.main {
+  flex: 1;
+  min-height: 100vh;
+  padding: 40px 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.image-gallery .image-gallery-thumbnail.active,
+.image-gallery-thumbnail:focus {
+  border: none;
+  border: 4px solid teal;
+}
+
+.image-gallery .image-gallery-thumbnail:hover {
+  border: 4px solid teal;
+}
+
+.image-gallery .image-gallery-icon .image-gallery-svg {
+  height: 90px;
+  width: 40px;
+}
+
+.image-gallery .image-gallery-icon:hover {
+  color: teal;
+}
+
+.image-gallery .image-gallery-thumbnail .image-gallery-image {
+  height: 100px;
+  object-fit: cover;
+}
+
+.image-gallery .image-gallery-slide {
+  height: 500px;
+  @media screen and (max-width: 991px) {
+    max-height: 400px;
+  }
+
+  @media screen and (max-width: 768px) {
+    max-height: 300px;
+  }
+}
+
+.image-gallery .image-gallery-slides {
+  width: 400px;
+  margin: 0 auto;
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
+}
+
+.image-gallery
+  .image-gallery-content
+  .image-gallery-slide
+  .image-gallery-image {
+  height: 100%;
+  max-height: none;
+  object-fit: contain;
+
+  @media screen and (max-width: 991px) {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  @media screen and (max-width: 768px) {
+    max-width: 300px;
+  }
+}
+
+.image-gallery .image-gallery-left-nav {
+  @media screen and (max-width: 520px) {
+    left: -20px;
+  }
+}
+
+.image-gallery .image-gallery-right-nav {
+  @media screen and (max-width: 520px) {
+    right: -20px;
+  }
+}
+
+.image-gallery
+  .image-gallery-thumbnails
+  .image-gallery-thumbnail
+  .image-gallery-thumbnail-image {
+  height: 100px;
+  object-fit: cover;
 }
